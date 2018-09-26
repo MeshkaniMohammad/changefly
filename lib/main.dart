@@ -48,7 +48,7 @@ class _HomePageState extends State<SplashPage> with TickerProviderStateMixin {
     ///Release the controller.
     _controller?.dispose();
     ///Initialize controller with specific duration.
-    _controller = AnimationController(duration: const Duration(seconds: 2), vsync: this);
+    _controller = AnimationController(duration: const Duration(seconds: 4), vsync: this);
 
 
     ///Initialize animations.
@@ -93,7 +93,7 @@ class _HomePageState extends State<SplashPage> with TickerProviderStateMixin {
       color: Colors.white,
       ///Give some padding.
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 150.0),
+        padding: const EdgeInsets.symmetric(vertical: 128.0),
         ///Make alignment for top center.
         child: Align(
           alignment: Alignment.topCenter,
